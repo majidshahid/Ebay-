@@ -1,10 +1,11 @@
 
-import {Modal,Card } from "../../components"
-function Home() {
+import {Modal,Card } from "../../components";
+import First from "../../assets/images/1st.jpg"; 
+ function Home() {
     return (
         <div>
             <Modal/>
-<Card text="the theory which explain the arrangement of three state of matter"/>
+<Card pic={First} text="the theory which explain the arrangement of three state of matter"/>
         </div>
     )
 }

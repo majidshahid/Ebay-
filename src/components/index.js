@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import Modal from "./modal";
-import Card from "./Card";
+import Card from "./Card/index.js";
 
 export {
     NavBar,
